@@ -1,3 +1,4 @@
+import Contact from "./components/Home/Contact";
 import Description from "./components/Home/Description";
 import Events from "./components/Home/Events";
 import Footer from "./components/Home/Footer";
@@ -13,6 +14,7 @@ function App() {
       <Description />
       <Events />
       <Reviews />
+      <Contact/>
       <Footer />
     </>
   );

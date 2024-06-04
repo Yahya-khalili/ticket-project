@@ -58,6 +58,7 @@ const Events = () => {
               </div>
             </div>
           ))}
+          <button>Explorer tout</button>
         </div>
       </div>
     </div>
