@@ -5,6 +5,8 @@ import Footer from "./components/Home/Footer";
 import Hero from "./components/Home/Hero";
 import Navbar from "./components/Home/Navbar";
 import Reviews from "./components/Home/Reviews";
+import Login from "./components/auth/Login";
+import Signup from "./components/auth/Signup";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Reviews />
       <Contact/>
       <Footer />
+      
+      
     </>
   );
 }

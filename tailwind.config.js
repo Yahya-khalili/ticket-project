@@ -15,4 +15,27 @@ module.exports = {
     },
   },
   plugins: [],
+
+
+  mode: 'jit',
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        salmon: '#e8716d',
+        smokyBlack: 'rgba(34, 34, 34, 0.85)',
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'ans-serif'],
+      },
+      fontSize: {
+        body: '12px',
+        light: '300',
+        regular: '400',
+        medium: '500',
+      },
+    },
+  },
+  variants: {},
+  
 };
