@@ -8,7 +8,7 @@ function Hero() {
         backgroundImage: `url(${hero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "100vh",
+        height: "88vh",
       }}
     >
       <div className="container mx-auto text-center">

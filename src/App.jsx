@@ -16,10 +16,8 @@ function App() {
       <Description />
       <Events />
       <Reviews />
-      <Contact/>
+      <Contact />
       <Footer />
-      
-      
     </>
   );
 }

@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 mb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-center text-red-600">
           Entrer en contact
