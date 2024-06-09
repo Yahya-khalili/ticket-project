@@ -1,0 +1,18 @@
+/* Add this CSS to your stylesheet */
+
+h1 span {
+    transition: all 0.3s ease;
+  }
+  
+  h1 span:first-child {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 span:last-child {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+  }
+  
+  h1 span:hover {
+    transform: scale(1.1);
+  }
+  

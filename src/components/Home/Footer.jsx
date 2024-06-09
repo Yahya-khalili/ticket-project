@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-red-600 py-10">
+    <footer className="footer bg-blue-600 py-10">
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap">
           <div className="footer-col w-full sm:w-1/2 md:w-1/4 p-4">
             <h4 className="text-white text-lg font-medium mb-6 relative">
               COMPANY
-              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-pink-300"></span>
+              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-blue-300"></span>
             </h4>
             <ul className="space-y-2">
               <li>
@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="footer-col w-full sm:w-1/2 md:w-1/4 p-4">
             <h4 className="text-white text-lg font-medium mb-6 relative">
               GET HELP
-              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-pink-300"></span>
+              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-blue-300"></span>
             </h4>
             <ul className="space-y-2">
               <li>
@@ -96,7 +96,7 @@ const Footer = () => {
           <div className="footer-col w-full sm:w-1/2 md:w-1/4 p-4">
             <h4 className="text-white text-lg font-medium mb-6 relative">
               ONLINE TICKETS
-              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-pink-300"></span>
+              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-blue-300"></span>
             </h4>
             <ul className="space-y-2">
               <li>
@@ -128,7 +128,7 @@ const Footer = () => {
           <div className="footer-col w-full sm:w-1/2 md:w-1/4 p-4">
             <h4 className="text-white text-lg font-medium mb-6 relative">
               FOLLOW UPS
-              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-pink-300"></span>
+              <span className="absolute left-0 bottom-0 h-0.5 w-12 bg-blue-300"></span>
             </h4>
             <div className="social-links flex space-x-4">
               <a
@@ -160,7 +160,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    
   );
 };
 
